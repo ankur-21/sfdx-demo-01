@@ -20,6 +20,11 @@
                 <default>false</default>
                 <label>End User</label>
             </value>
+            <value>
+                <fullName>Internal User</fullName>
+                <default>false</default>
+                <label>Internal User</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
