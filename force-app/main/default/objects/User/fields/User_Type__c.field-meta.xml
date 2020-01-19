@@ -5,13 +5,18 @@
     <label>User Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Picklist</type>
+    <type>Picklist</type> 
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>false</sorted>
+            <sorted>false</sorted> 
             <value>
                 <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Partner portal</fullName>
                 <default>false</default>
                 <label>Partner</label>
             </value>
@@ -19,6 +24,11 @@
                 <fullName>End User</fullName>
                 <default>false</default>
                 <label>End User</label>
+            </value>
+            <value>
+                <fullName>Internal User</fullName>
+                <default>false</default>
+                <label>Internal User</label>
             </value>
         </valueSetDefinition>
     </valueSet>
